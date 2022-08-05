@@ -18,6 +18,10 @@ mecab-python3 v1.0.3
 networkx v2.5  
 PySimpleGUI v4.60.3  
 
+(1).まずデータを作成します。genbu/experience.pyのコードをエディタで開き，中にある変数"model_path"を任意の値に書き換えて，実行します。なお**必ずexperience.py及びmain.pyは同じディレクトリ内に置いてください。**
+
+(2).main.pyを実行して，ちゃんと読み込めるか確認します。
+
 これ以降の内容は気が向いたら書きます。
 
 ## 使用したデータについて
@@ -26,8 +30,15 @@ PySimpleGUI v4.60.3
 
 GithubのURL: [WikiEntVec](https://github.com/singletongue/WikiEntVec)
 
+## 推奨スペック
+推奨スペックを満たさない環境を用いた場合，**最悪落ちます**。  
+
+CPU: Intel Core i5 相当  
+メモリ: 8GB 以上  
+OS: Window10 以上
 
 ## ライセンスについて
+コードはMITライセンスの元配布されます。
 
 
-「Python」はPython Software Foundationの登録商標です。
+※「Python」はPython Software Foundationの登録商標です。
